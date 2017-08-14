@@ -19,7 +19,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/business_cover_image"
                 android:scaleType="centerCrop"
-                tools:background="@color/colorAccent" />
+                android:src="@drawable/business_cover_image" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/ic_watch_later_black_24dp"
             android:gravity="center"
             android:text="@string/business_hours" />
 
@@ -65,6 +67,9 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="24dp"
             android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
             android:text="@string/business_number"
             android:textSize="16sp" />
 
@@ -78,6 +83,9 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
             android:autoLink="map"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
             android:text="@string/business_address"
             android:textSize="16sp" />
 
