@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Android Developer</string>
+    <string name="business_cover_image">Business Cover Image</string>
+    <string name="business_description">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+    </string>
+    <string name="business_hours">10:00 AM - 08:00 PM</string>
+    <string name="business_information">Business Information</string>
+    <string name="business_address">Aurangabad, Maharashtra, India</string>
+    <string name="business_number">+91 0123456789</string>
 </resources>
