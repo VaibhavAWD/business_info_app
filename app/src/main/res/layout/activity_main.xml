@@ -71,6 +71,7 @@
             android:drawablePadding="4dp"
             android:drawableStart="@drawable/ic_phone_black_24dp"
             android:text="@string/business_number"
+            android:textColorLink="@color/gray"
             android:textSize="16sp" />
 
         <TextView
@@ -86,8 +87,8 @@
             android:drawableLeft="@drawable/ic_location_on_black_24dp"
             android:drawablePadding="4dp"
             android:drawableStart="@drawable/ic_location_on_black_24dp"
-            tools:text="@string/business_address"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            tools:text="@string/business_address" />
 
     </LinearLayout>
 
